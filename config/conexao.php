@@ -1,5 +1,5 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=farmacia;charset=utf8";
+$dsn = "mysql:host=localhost;dbname=estoque;charset=utf8";
 $usuario = "root";
 $senha = "";
 
@@ -7,9 +7,6 @@ $senha = "";
 try {
     $pdo = new PDO($dsn, $usuario, $senha);
 } catch (PDOException $e)  {
-    die("Eroo ao conectar: " . $e->getMessage());
+    die("Erro ao conectar: " . $e->getMessage());
 }
-
-
-
 ?>

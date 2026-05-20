@@ -1,11 +1,10 @@
 create database estoque;
-use estoque
-
+USE estoque;
 create table produtos(
-id int primary key identity(1,1),
+id int primary key auto_increment,
 nome varchar(25),
 preco decimal(10,2),
-estoque int
-)
-
-select * from produtos
+estoque int,
+fabricante varchar(50),
+dose varchar(10)
+);
