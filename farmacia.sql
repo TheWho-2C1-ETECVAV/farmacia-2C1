@@ -8,3 +8,5 @@ estoque int,
 fabricante varchar(50),
 dose varchar(10)
 );
+
+select * from produtos

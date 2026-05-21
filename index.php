@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmacia</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -30,6 +33,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 ?>
 
 <a href="cadastro.php">Cadastro</a>
+<a href="excluir.php">exclusao</a>
 
 </body>
 </html>
