@@ -71,6 +71,5 @@ $id = $pdo->lastInsertId();
 }
 ?>
 <br>
-<a href="index.php">index</a>
 </body>
 </html>
